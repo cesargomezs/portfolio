@@ -1,0 +1,62 @@
+/* Estilos para la Tarjeta Individual */
+.project-card {
+    /* Fondo que contrasta con el negro/verde oscuro de la página */
+    background-color: #1a1a1a; 
+    border: 1px solid #2e2e2e;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    /* Fuente clara */
+    color: #f0f0f0; 
+}
+
+/* Efecto Hover para darle vida */
+.project-card:hover {
+    transform: translateY(-5px); /* Se eleva ligeramente */
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.4); /* Sombra verde más fuerte */
+}
+
+/* Estilo del encabezado y título */
+.card-icon-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    color: #10b981; /* Título en color verde */
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* Contenedor de Tags de Tecnología */
+.tech-stack {
+    margin: 15px 0 20px 0;
+}
+
+/* Tags Individuales de Tecnología */
+.tech-tag {
+    display: inline-block;
+    background-color: #0d4234; /* Un verde oscuro sutil para el tag */
+    color: #64f9b8; /* Texto del tag verde claro */
+    font-size: 0.8em;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+/* Estilo del Enlace */
+.project-link {
+    color: #10b981;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.project-link:hover {
+    color: #64f9b8;
+}

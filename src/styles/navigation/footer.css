@@ -1,12 +1,12 @@
 .footer {
-  background-color: darkmagenta;
+  background-color: #0b7139;
   color: #fff;
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
   padding: 15px 20px;
-  box-shadow: 0 -6px 8px #8b008b80;
+  box-shadow: 0 -6px 8px #058b09;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,15 +1,42 @@
+import "@/styles/card/book.css";
+
 const Home = () => {
   return (
-    <section id="home">
-      <h2>Home</h2>
-      <br></br>
-      <p className="psection">
-      This warehouse is dedicated to the storage, organization, and distribution of clothing for both babies and adults. It holds a wide variety of garments, including everyday wear, seasonal apparel, and special collections. Items are carefully categorized by size, age group, gender, and type of clothing—such as onesies, dresses, pants, jackets, and accessories.
+    <section className="about-section" id="home">
+    {/* Fondo superior */}
+    <div className="bg-shape top-shape" />
 
-The facility is equipped with shelving units, hanging racks, and climate control systems to preserve fabric quality. Incoming shipments are received and checked for quality, then stored until ready for packaging and delivery to retail stores, online customers, or distribution centers. Efficient inventory systems ensure fast order fulfillment and accurate stock management across multiple clothing lines.
-      </p>
-      <br></br>
-    </section>
+    <div className="about-container">
+      <div className="about-text">
+        <h2>About Me</h2>
+        <span className="divider" />
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur.
+        </p>
+
+        <button className="btn-primary">
+          Download Resume
+        </button>
+      </div>
+
+      <div className="about-image">
+        <img
+          src="/profile.jpg"
+          alt="Profile"
+        />
+      </div>
+    </div>
+
+    {/* Fondo inferior */}
+    <div className="bg-shape bottom-shape" />
+  </section>
   );
 };
 

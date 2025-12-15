@@ -19,16 +19,70 @@ main {
     height: auto;
 }
 
+.container-main {
+    /* Define un ancho máximo para centrar el contenido en pantallas grandes */
+    width: 80vw;
+
+    margin: 0 auto; /* Centra el div horizontalmente */
+    padding: 20px; /* Espacio interno para que el contenido no toque los bordes */
+    
+}
+.projects-section {
+    /* Aplica el gradiente SÓLO a esta sección o a un fondo específico de esta sección */
+    background: linear-gradient(180deg, #002e21, #000000); 
+    color: #ffffff; /* Asegura que el texto dentro de la sección sea claro */
+    padding: 40px; 
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2); /* Sombra verde sutil */
+    margin-bottom: 40px; /* Espacio entre secciones */
+}
+
+.projects-section h2 {
+    color: #10b981; /* Color verde esmeralda para el título */
+}
+
 .background-image {
     position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     filter: blur(2px);
-    opacity: 0.1;
     object-fit: cover;
+    background-attachment: scroll ;
+
+}
+.dark .background-image {
+    opacity: 0.9; 
+    background-attachment: scroll ; 
+}
+
+.cuadro-react {
+    width: 90vw; /* Ancho */
+    height: 20vh; /* Alto (igual al ancho para un cuadrado) */
+    background-color: #3498db; /* Color de fondo */
+    border: 2px solid #2980b9; /* Borde opcional */
+
+    text-align: center; /* Centrar texto */
+    color: white; /* Color del texto */
+    font-size: 18px;
+    margin-top: 60px;
+
+    margin: 0 auto; /* Centra el div horizontalmente */
+    padding: 20px;
+  }
+  .project-card {
+    /* Fondo que contrasta con el negro/verde oscuro de la página */
+    background-color: #1a1a1a; 
+    border: 1px solid #2e2e2e;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    /* Fuente clara */
+    color: #f0f0f0; 
 }
 
 section {
@@ -44,17 +98,25 @@ section {
 .psection {
     align-items: justify ; 
     justify-content: justify ;
-    text-align: justify;
+    text-align: left;
     width: 72vw; 
     line-height: 1.8;
+}
+
+.dark .psection {
+    color: #ddd;
 }
 
 .psectiondescription{
     align-items: justify ; 
     justify-content: justify ;
-    text-align: justify;
+    text-align: left;
     width: 72vw; 
     line-height: 1.2;
+}
+
+.dark .psectiondescription{
+    color: #ddd;
 }
 
 .scroll-item    {
@@ -67,3 +129,42 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
+
+.lang-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .lang-container {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    background: rgba(17, 24, 39, 0.6); /* gray-900/60 */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 9999px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .lang-btn {
+    padding: 6px 16px;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    color: #fff; /* orange-300 */
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .lang-btn:hover {
+    color: #ffffff;
+  }
+  
+  .lang-btn.active {
+    background: #439a86;
+    color: #fdba74;
+    box-shadow: 0 6px 15px rgba(67, 154, 134, 0.45);
+  }
+  

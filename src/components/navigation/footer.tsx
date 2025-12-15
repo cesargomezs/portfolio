@@ -1,4 +1,5 @@
 import '@/styles/navigation/footer.css';
+import React from 'react';
 
 const Footer = () => {
   return (

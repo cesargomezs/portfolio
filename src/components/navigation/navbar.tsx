@@ -1,11 +1,16 @@
 import "@/styles/navigation/navbar.css";
+import React from "react";
 import { useState } from "react";
+import ThemeSwitcher from "../themeSwitcher";
+import LanguageSelector from "../languaje";
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="navbar">
+      <ThemeSwitcher/>
+      <LanguageSelector />
       <a href="#" className="navbar-brand">
         Sample Warehouse
       </a>
@@ -35,10 +40,13 @@ const Navbar = () => {
           <a href="#dashboard">Dashboard</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#portafolio">Portafolio</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#experience">Experiencie</a>
         </li>
       </ul>
     </nav>
