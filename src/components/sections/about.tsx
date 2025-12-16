@@ -1,23 +1,38 @@
 import React from "react";
+import { type LocalizerProps, i18n as t } from '../i18n/localizer';
 
-const About = () => {
+
+export const About: React.FC<LocalizerProps>=({ locale }) => {
+
   return (
-    <section className="about-section"  id="about">
-      <div className="bg-shape top-shape" />
-      
-      <h2>About</h2>
+    <section className="about-section" id="about">
 
-      <p className="psection">
-      At our clothing warehouse, we specialize in the storage, handling, and distribution of high-quality apparel for both babies and adults. With a strong focus on organization, efficiency, and care, we ensure that every item — from baby onesies to adult fashion — is properly managed and delivered in perfect condition.
+    <div className="bg-shape top-shape" />
+      <div className="about-container">
+       <div className="about-text">
+          <h2>{t[locale].about.title}</h2>
+          <span className="divider" />
+            <p>
+              {t[locale].about.paragraph1}
+            </p>
 
-Our facility is equipped with advanced inventory systems, climate-controlled spaces, and a dedicated team committed to maintaining the highest standards in logistics and customer service. Whether we're supplying retail stores, fulfilling online orders, or supporting boutique brands, our goal is to make clothing distribution seamless, fast, and reliable.
-
-We take pride in supporting businesses that bring comfort and style to people of all ages — starting from the tiniest newborn to the modern adult.
-      </p>
-      
+              <button className="btn-primary">
+                  {t[locale].about.downloadResume}
+              </button>
+          </div>
+          <div  className="profile-wrappersized ">
+              <div className="profile-wrapper">
+                <img 
+                  className="profile-image"
+                  src="../../fotoprof2.png"
+                  alt="Profile"
+                />
+              </div>
+        </div>
+      </div>
       <div className="bg-shape bottom-shape" />
-    </section>
-    
+      <div className="spacer" />
+  </section>
   );
 };
 

@@ -3,7 +3,7 @@
     background: #fffd;
     overflow: hidden;
     padding: 6rem 1rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
     border-radius: 10px; 
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2); 
     
@@ -14,7 +14,7 @@
     background: rgb(142, 151, 137);
     overflow: hidden;
     padding: 6rem 1rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
     border-radius: 10px; 
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2); 
     
@@ -41,6 +41,12 @@
     font-size: 2.2rem;
     font-weight: 700;
   }
+
+  .dark .about-text h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0a1209;
+  }
   
   .divider {
     display: block;
@@ -52,6 +58,12 @@
   
   .about-text p {
     color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .dark .about-text p {
+    color: #283025;
     line-height: 1.6;
     margin-bottom: 1rem;
   }
@@ -86,6 +98,12 @@
   .profile-image {
     width: 90%;
     margin: 2em auto;
+  }
+
+  .dark .profile-image {
+    width: 90%;
+    margin: 2em auto;
+    filter: brightness(0.6);
   }
 
   .spacer{
@@ -127,7 +145,6 @@
     top: 0;
     clip-path: polygon(0 0, 90% 0, 50% 80%, 0 100%);
   }
-
 
   .bottom-shape {
     bottom: 0;

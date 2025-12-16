@@ -55,7 +55,7 @@ main {
 }
 .dark .background-image {
     opacity: 0.2; 
-    background-attachment: scroll ; 
+     
 }
 
 .cuadro-react {
@@ -104,7 +104,7 @@ section {
 }
 
 .dark .psection {
-    color: #ddd;
+    color: #020617;
 }
 
 .psectiondescription{

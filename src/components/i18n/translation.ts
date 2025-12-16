@@ -1,77 +1,85 @@
 export const translation = {
     "en-US": {
-      "title": "Viviendo en",
-      "title2": "USA",
-      "subtitle": "United We",
-      "subtitle2": "Are Stronger",
-      "slogan": "Connecting hearts, celebrating culture, and building the future together. A space where every voice counts and every story matters.",
-      "learn": "Learn More",
-      "joinUs": ":: Join Now ::",
+      "title": "Portfolio",
       "about": {
         "title": "About me",
-        "destiny1": "Latino immigrants or foreign-born individuals, first or second generation.",
-        "destiny2":"Residents in the U.S. and Canada with a growing Latino population.",
-        "destiny3":"Professionals and organizations wishing to connect with and offer services to this community.",
-        "imageAltText": "Group of people discussing a data visualization with each other",
-        "subtitle": "Innovative Language Laddering Solutions",
-        "vision" : "Our Vision",
-        "visiondesc": "Strengthening local economies by connecting residents with businesses and services in their neighborhood, promoting local consumption and facilitating an ecosystem of exchange and collaboration.",
-        "mission" : "Our Mission",
-        "missiondesc": "Create more united, participatory and supportive communities, where every resident feels connected, safe and proud of their neighborhood."
+        "paragraph1": "Full Stack Expertise: Skilled in both frontend (UI/UX, mobile/web) and backend (business logic, databases) development. Architectural Vision: Adept at designing scalable, maintainable, and secure systems aligned with long-term business goals. DevOps & Cloud: Hands-on experience implementing and managing cloud services in Azure (IaaS, PaaS, Serverless) environments. Analytical Problem Solving: Strong analytical mindset with expertise in root cause analysis (RCA) and resolution of complex technical challenges.",
+        "downloadResume": "Download Resume",
       },
-      "experience": {
-        "title": "My Experience"
-  
+      "contact": {
+        "title": "Contact Me",
+        "paragraph1": "Have a project in mind or just want to say hello? Feel free to reach out to me! I'm always open to new opportunities and collaborations.",
+        "sendMessage": "Send Message"
+      },
+      "experiences": {
+        "title": "My Experience",
+        "paragraph1": "Here are my most recent works in web and mobile development."
+      },
+      "home": { 
+        "title": "Welcome to my Portfolio"
+      },
+      "portafolioSection": {
+        "title": "Portfolio",
+        "paragraph1": "Here are my most recent works in web and mobile development."
+      },
+      "services": {
+        "title": "My Services"
       },
       "copyright": "Copyright © 2025 Viviendo en Usa - All Rights Reserved."
     },
     "es-419": {
-      "title": "Viviendo en",
-      "title2": "USA",
-      "subtitle": "Unidos Somos",
-      "subtitle2": "Más Fuertes",
-      "slogan": "Conectando corazones, celebrando cultura y construyendo futuro juntos. Un espacio donde cada voz cuenta y cada historia importa.",
-      "learn": "Aprender más",
-      "joinUs": ":: Únete ahora ::",
+      "title": "Portafolio",
       "about": {
-        "title": "Acerca de nosotros",
-        "destiny1": "Personas latinas inmigrantes o nacidas en el extranjero, de primera o segunda generación.",
-        "destiny2":"Residentes en EE.UU., Canadá con una creciente población latina.",
-        "destiny3":"Profesionales y organizaciones que deseen conectarse y ofrecer servicios a esta comunidad.",
-        "imageAltText": "Grupo de personas discutiendo una visualización de datos",
-        "subtitle": "Soluciones innovadoras de escaleras de idiomas",
-        "vision" : "Nuestra Visión",
-        "visiondesc": "Fortalecer las economías locales conectando a los residentes con los comercios y servicios de su barrio, promoviendo el consumo local y facilitando un ecosistema de intercambio y colaboración.",
-        "mission" : "Nuestra Misión",
-        "missiondesc": "Crear comunidades más unidas, participativas y solidarias, donde cada residente se sienta conectado, seguro y orgulloso de su barrio."
-      },"experience": {
-        "title": "My Experience"
-  
+        "title": "Acerca de mí",
+        "paragraph1": "Experiencia Full Stack: Experto en desarrollo frontend (UI/UX, móvil/web) y backend (lógica de negocio, bases de datos). Visión arquitectónica: Experto en el diseño de sistemas escalables, fáciles de mantener y seguros, alineados con los objetivos de negocio a largo plazo. DevOps y nube: Experiencia práctica en la implementación y gestión de servicios en la nube en entornos Azure (IaaS, PaaS, Serverless). Resolución analítica de problemas: Sólida mentalidad analítica con experiencia en análisis de causa raíz (RCA) y resolución de desafíos técnicos complejos.",
+        "downloadResume": "Descargar Curriculum Vitae",
+      },
+      "contact": {
+        "title": "Contactame",
+        "paragraph1": "¿Tienes un proyecto en mente o simplemente quieres saludar? ¡No dudes en ponerte en contacto conmigo! Estoy siempre abierto a nuevas oportunidades y colaboraciones.",
+        "sendMessage": "Enviar Mensaje"
+      },
+      "experiences": {
+        "title": "Mi Experiencia",
+        "paragraph1": "Aquí se muestran mis trabajos más recientes en desarrollo web y móvil."
+      },
+      "home": { 
+        "title": "Bienvenido a mi Portafolio"
+      },
+      "portafolioSection": {
+        "title": "Portafolio",
+        "paragraph1": "Aquí se muestran mis trabajos más recientes en desarrollo web y móvil."
+      },
+      "services": {
+        "title": "Mis Servicios"
       },
       "copyright": "Copyright © 2025 Viviendo en USA - All Rights Reserved."
     },
     "es-ES": {
-      "title": "Viviendo en",
-      "title2": "USA",
-      "subtitle": "Unidos Somos",
-      "subtitle2": "Más Fuertes",
-      "slogan": "Conectando corazones, celebrando cultura y construyendo futuro juntos. Un espacio donde cada voz cuenta y cada historia importa.",
-      "learn": "Aprender más",
-      "joinUs": ":: Únete ahora ::",
+      "title": "Portafolio",
       "about": {
-        "title": "Acerca de mi",
-        "destiny1": "Personas latinas inmigrantes o nacidas en el extranjero, de primera o segunda generación.",
-        "destiny2":"Residentes en EE.UU., Canadá con una creciente población latina.",
-        "destiny3":"Profesionales y organizaciones que deseen conectarse y ofrecer servicios a esta comunidad.",
-        "imageAltText": "Grupo de personas discutiendo una visualización de datos",
-        "subtitle": "Soluciones innovadoras de escaleras de idiomas",
-        "vision" : "Nuestra Visión",
-        "visiondesc": "Fortalecer las economías locales conectando a los residentes con los comercios y servicios de su barrio, promoviendo el consumo local y facilitando un ecosistema de intercambio y colaboración.",
-        "mission" : "Nuestra Misión",
-        "missiondesc": "Crear comunidades más unidas, participativas y solidarias, donde cada residente se sienta conectado, seguro y orgulloso de su barrio."
-      },"experience": {
-        "title": "Mi Experiencia"
-  
+        "title": "Acerca de mí",
+        "paragraph1": "Experiencia Full Stack: Experto en desarrollo frontend (UI/UX, móvil/web) y backend (lógica de negocio, bases de datos). Visión arquitectónica: Experto en el diseño de sistemas escalables, fáciles de mantener y seguros, alineados con los objetivos de negocio a largo plazo. DevOps y nube: Experiencia práctica en la implementación y gestión de servicios en la nube en entornos Azure (IaaS, PaaS, Serverless). Resolución analítica de problemas: Sólida mentalidad analítica con experiencia en análisis de causa raíz (RCA) y resolución de desafíos técnicos complejos.",
+        "downloadResume": "Descargar Curriculum Vitae",
+      },
+      "contact": {
+        "title": "Contactame",
+        "paragraph1": "¿Tienes un proyecto en mente o simplemente quieres saludar? ¡No dudes en ponerte en contacto conmigo! Estoy siempre abierto a nuevas oportunidades y colaboraciones.",
+        "sendMessage": "Enviar Mensaje"
+      },
+      "experiences": {
+        "title": "Mi Experiencia",
+        "paragraph1": "Aquí se muestran mis trabajos más recientes en desarrollo web y móvil."
+      },
+      "home": {
+        "title": "Bienvenido a mi Portafolio"
+      },
+      "portafolioSection": {
+        "title": "Portafolio",
+        "paragraph1": "Aquí se muestran mis trabajos más recientes en desarrollo web y móvil."
+      },
+      "services": {
+        "title": "Mis Servicios"
       },
       "copyright": "Copyright © 2025 Viviendo en USA - All Rights Reserved."
     }    
