@@ -18,7 +18,7 @@ function App() {
     <>
       <img
         className="background-image"
-        src="fondo.png"
+        src="fondotriangle.jpg"
         alt="Background Image"
       />
       <Navbar />
