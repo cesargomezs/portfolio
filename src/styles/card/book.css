@@ -1,12 +1,12 @@
 .about-section {
     position: relative;
-    background: white;
+    background: #fffd;
     overflow: hidden;
     padding: 6rem 1rem;
     margin-top: 4rem;
     border-radius: 10px; 
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2); 
-    opacity: 0.8;
+    
   }
 
   .dark .about-section {
@@ -17,17 +17,19 @@
     margin-top: 4rem;
     border-radius: 10px; 
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2); 
-    opacity: 0.8;
+    
   }
   
   .about-container {
-    max-width: 1200px;
+    width: 100vw;
     margin: auto;
     display: flex;
     align-items: center;
     gap: 3rem;
     position: relative;
     z-index: 2;
+    padding-left: 12em;
+    padding-right: 12em;
   }
   
  
@@ -78,7 +80,21 @@
   }
 
   .profile-wrapper {
-    position: relative;
+    width: 100%;
+  }
+
+  .profile-image {
+    width: 90%;
+    margin: 2em auto;
+  }
+
+  .spacer{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #0b7139, #058b09);
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
   }
 
   .profile-wrapper::before {
@@ -107,7 +123,6 @@
     z-index: 1;
   }
   
-  
   .top-shape {
     top: 0;
     clip-path: polygon(0 0, 90% 0, 50% 80%, 0 100%);
@@ -124,8 +139,11 @@
     .about-container {
       flex-direction: column;
       text-align: center;
+      padding-left: 2rem;
+      padding-right: 2rem;
     }
   
+
     .divider {
       margin: 0.3rem auto 1.5rem;
     }

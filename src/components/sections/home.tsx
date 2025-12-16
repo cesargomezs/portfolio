@@ -27,7 +27,8 @@ const Home = () => {
       </div>
       <div  className="profile-wrappersized ">
         <div className="profile-wrapper">
-          <img
+          <img 
+            className="profile-image"
             src="../../fotoprof2.png"
             alt="Profile"
           />
@@ -35,8 +36,8 @@ const Home = () => {
       </div>
     </div>
 
-    {/* Fondo inferior */}
-    <div className="bg-shape bottom-shape" />
+
+    <div className="spacer" />
   </section>
   );
 };
