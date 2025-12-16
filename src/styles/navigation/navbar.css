@@ -2,7 +2,7 @@
 .navbar {
     background-color: #0b7139;
     color: white;
-    padding: 15px 20px;
+    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,13 +22,13 @@
 }
 @media (max-width: 768px) {
     .navbar-brand {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 }
 /* Galaxy Fold */
 @media (max-width: 345px) {
     .navbar-brand {
-        font-size: 1.2em;
+        font-size: 1.0em;
     }
 }
 
@@ -60,14 +60,14 @@
     cursor: pointer;
     background-color: transparent;
     border: none;
-    padding: 10px;
+    padding: 8px;
     z-index: 10000; /* Ensure it's above other content */
 }
 .hamburger .bar {
-    width: 30px;
+    width: 18px;
     height: 3px;
     background-color: white;
-    margin: 4px 0;
+    margin: 2px 0;
     transition: all 0.3s ease-in-out;
 }
 
@@ -94,7 +94,7 @@
     }
     .nav-links.active {
         border-top: 2px solid #cccf;
-        top: 82px; /* Adjust based on navbar height */
+        top: 60px; /* Adjust based on navbar height */
     }
     .nav-links li {
         margin: 10px 20px;
@@ -106,7 +106,7 @@
     }
     /* Hamburger Animation */
     .hamburger.active .bar:nth-child(1) {
-        transform: translateY(7px) rotate(45deg);
+        transform: translateY(4px) rotate(45deg);
     }
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;

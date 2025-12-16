@@ -54,7 +54,7 @@ main {
 
 }
 .dark .background-image {
-    opacity: 0.9; 
+    opacity: 0.2; 
     background-attachment: scroll ; 
 }
 
@@ -99,7 +99,7 @@ section {
     align-items: justify ; 
     justify-content: justify ;
     text-align: left;
-    width: 72vw; 
+    width: 60vw; 
     line-height: 1.8;
 }
 
@@ -165,6 +165,13 @@ section {
   .lang-btn.active {
     background: #439a86;
     color: #fdba74;
+    font-weight: bold;
     box-shadow: 0 6px 15px rgba(67, 154, 134, 0.45);
   }
   
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1px;
+    
+  }

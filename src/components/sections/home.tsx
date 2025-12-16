@@ -25,12 +25,13 @@ const Home = () => {
           Download Resume
         </button>
       </div>
-
-      <div className="about-image">
-        <img
-          src="/profile.jpg"
-          alt="Profile"
-        />
+      <div  className="profile-wrappersized ">
+        <div className="profile-wrapper">
+          <img
+            src="../../fotoprof2.png"
+            alt="Profile"
+          />
+        </div>
       </div>
     </div>
 

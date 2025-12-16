@@ -2,7 +2,6 @@ import Navbar from './components/navigation/navbar';
 
 import Home from './components/sections/home';
 import About from './components/sections/about';
-import Dashboard from './components/sections/dashboard';
 import PortafolioSection from './components/sections/portafolioSection';
 import Contact from './components/sections/contact';
 import Footer from './components/navigation/footer';
@@ -26,13 +25,12 @@ function App() {
       <main>
         <Home/>
         <About />
-        <Dashboard />
         <PortafolioSection />
         <Contact />
         <Experience locale={locale} />
         
       </main>
-      <Footer />
+      
     </>
   );
 }

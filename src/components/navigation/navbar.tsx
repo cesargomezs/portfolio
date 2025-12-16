@@ -9,11 +9,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="navbar">
-      <ThemeSwitcher/>
-      <LanguageSelector />
-      <a href="#" className="navbar-brand">
-        Sample Warehouse
-      </a>
+      <div className="wrapper">
+        <ThemeSwitcher/>
+        <LanguageSelector />
+      </div>
+
       <button 
         className={`hamburger ${isOpen ? "active" : ""}`} 
         id="hamburger"
@@ -35,9 +35,6 @@ const Navbar = () => {
         </li>
         <li>
           <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#dashboard">Dashboard</a>
         </li>
         <li>
           <a href="#portafolio">Portafolio</a>
