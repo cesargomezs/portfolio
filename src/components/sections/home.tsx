@@ -9,7 +9,7 @@ export const Home: React.FC<LocalizerProps>=({ locale }) => {
     <div className="bg-shape top-shape" />
       <div className="about-container">
        <div className="about-text">
-          <h2>{t[locale].home.title}</h2>
+          <h2 style={{textAlign:"center"}}>{t[locale].home.title}</h2>
           <span className="divider" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -19,19 +19,7 @@ export const Home: React.FC<LocalizerProps>=({ locale }) => {
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur.
             </p>
-              <button className="btn-primary">
-                  Download Resume
-              </button>
           </div>
-          <div  className="profile-wrappersized ">
-              <div className="profile-wrapper">
-                <img 
-                  className="profile-image"
-                  src="../../fotoprof2.png"
-                  alt="Profile"
-                />
-              </div>
-        </div>
       </div>
       <div className="bg-shape bottom-shape" />
       <div className="spacer" />

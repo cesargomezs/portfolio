@@ -7,7 +7,8 @@ export const Experience: React.FC<LocalizerProps>=({ locale }) => {
             <div className="bg-shape top-shape" />
                 <div className="about-container">
                     <div className="about-text">
-                        <h2>{t[locale].experiences.title}</h2>
+                        <h2 style={{textAlign:"center"}}>{t[locale].experiences.title}</h2>
+                        <span className="divider" />
                         <p>{t[locale].experiences.paragraph1}</p>
                     </div>
                 </div>

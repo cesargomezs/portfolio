@@ -11,7 +11,7 @@
 
   .dark .about-section {
     position: relative;
-    background: rgb(142, 151, 137);
+    background: #5a6954;
     overflow: hidden;
     padding: 6rem 1rem;
     margin-top: 5rem;
@@ -35,6 +35,11 @@
  
   .about-text {
     flex: 1;
+    text-align: left;
+  }
+
+  .dark .about-text {
+    color: #a3a7a1d5;
   }
   
   .about-text h2 {
@@ -63,7 +68,7 @@
   }
 
   .dark .about-text p {
-    color: #283025;
+    color: #202220;
     line-height: 1.6;
     margin-bottom: 1rem;
   }
@@ -76,6 +81,12 @@
     border: none;
     cursor: pointer;
     margin-top: 1rem;
+  }
+
+  .dark .btn-primary {
+    background: #1f5929;
+    color: #c7ccc5;
+
   }
 
   .about-image {
@@ -114,6 +125,10 @@
     z-index: -1;
     bottom: 0;
   }
+
+  .dark .spacer{
+    background: linear-gradient(135deg, #135312, #269c3a);
+   }
 
   .profile-wrapper::before {
     content: "";

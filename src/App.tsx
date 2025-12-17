@@ -15,7 +15,7 @@ function App() {
   const locale = useAppSelector((state) => state.localizer.locale);
   return (
     <>
-      <Navbar />
+      <Navbar locale={locale}/>
       <main>
         <Home locale={locale}/>
         <About locale={locale}  />

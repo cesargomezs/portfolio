@@ -12,5 +12,5 @@ createRoot(document.getElementById('root')!).render(
     <App />
     </Provider>
     </ThemeProvider>
-  </StrictMode>,
+  </StrictMode>
 )

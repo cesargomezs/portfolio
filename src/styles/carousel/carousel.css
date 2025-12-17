@@ -1,0 +1,91 @@
+.carousel-wrapper {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+}
+
+
+.scene {
+  width: 100%;
+  height: 220px;
+  perspective: 1000px;
+}
+
+.spacer-small {
+  height: 20px;
+}
+
+@media (min-width: 640px) {
+  .scene {
+    height: 40vh; 
+  }
+}
+
+@media (max-width: 430px) {
+  .contenedor {
+    width: 100%; /* Ocupa todo el ancho */
+    padding: 0 10px; /* Padding reducido */
+  }
+  h1 {
+    font-size: 1.5rem; /* Fuente más pequeña */
+  }
+
+  
+}
+
+@media only screen and (max-device-width: 480px) {
+  .carousel-wrapper {
+    width: 40%;
+    margin: auto;
+  }
+}
+
+
+
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+}
+
+.carousel-cell {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.controls button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  font-size: 24px;
+  background: #1e3d1b;
+  color: white;
+  cursor: pointer;
+}
+
+

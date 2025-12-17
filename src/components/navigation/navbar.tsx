@@ -3,9 +3,10 @@ import React from "react";
 import { useState } from "react";
 import ThemeSwitcher from "../themeSwitcher";
 import LanguageSelector from "../languaje";
+import { type LocalizerProps, i18n as t } from '../i18n/localizer';
 
+export const Navbar: React.FC<LocalizerProps>=({ locale }) => {
 
-const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="navbar">
@@ -31,19 +32,19 @@ const Navbar = () => {
       >
         <li>
         <i className="fa-house"></i>
-          <a href="#home">Home</a>
+          <a href="#home">{t[locale].navbar.home}</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">{t[locale].navbar.about}</a>
         </li>
         <li>
-          <a href="#portafolioSection">Portafolio</a>
+          <a href="#portafolioSection">{t[locale].navbar.portfolio}</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">{t[locale].navbar.contact}</a>
         </li>
         <li>
-          <a href="#experience">Experiencie</a>
+          <a href="#experience">{t[locale].navbar.experience}</a>
         </li>
       </ul>
     </nav>

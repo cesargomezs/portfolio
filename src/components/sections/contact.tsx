@@ -7,7 +7,8 @@ export const Contact: React.FC<LocalizerProps>=({ locale }) => {
     <div className="bg-shape top-shape" />
         <div className="about-container">
             <div className="about-text">
-                <h2>{t[locale].contact.title}</h2>
+                <h2 style={{textAlign:"center"}}>{t[locale].contact.title}</h2>
+                <span className="divider" />
                 <p>{t[locale].contact.paragraph1}</p>
                 <p>{t[locale].contact.sendMessage}</p>
             </div>
