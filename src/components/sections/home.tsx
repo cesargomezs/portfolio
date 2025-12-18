@@ -11,13 +11,10 @@ export const Home: React.FC<LocalizerProps>=({ locale }) => {
        <div className="about-text">
           <h2 style={{textAlign:"center"}}>{t[locale].home.title}</h2>
           <span className="divider" />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
+            <p style={{fontStyle:"italic"}}>
+              {t[locale].home.paragraph1}
+            <br/>
+              <strong>{t[locale].home.author}</strong>
             </p>
           </div>
       </div>

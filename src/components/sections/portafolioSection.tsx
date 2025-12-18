@@ -12,6 +12,8 @@ const images = [
     
   ];
 
+
+
 export const PortafolioSection: React.FC<LocalizerProps>=({ locale }) => {  
 return (
     <section className="about-section"  id="portafolioSection">    
@@ -22,12 +24,21 @@ return (
                     <span className="divider" />
                     <p>{t[locale].portafolioSection.paragraph1}</p>
                     <p><li>{t[locale].portafolioSection.projectsdescriptions[0]}</li></p>
+                    <p><a href="https://www.viviendoenusa.app/" target='_blank'>{t[locale].portafolioSection.hrefs}</a></p>
+
                     <p><li>{t[locale].portafolioSection.projectsdescriptions[1]}</li></p>
+                    <p><a href="https://cesargomezs.github.io/V2test/" target='_blank'>{t[locale].portafolioSection.hrefs}</a></p>
+
                     <p><li>{t[locale].portafolioSection.projectsdescriptions[2]}</li></p>
+                    <p><a href="https://cesargomezs.github.io/SampleLawyers/" target='_blank'>{t[locale].portafolioSection.hrefs}</a></p>
+
                     <p><li>{t[locale].portafolioSection.projectsdescriptions[3]}</li></p>
+                    <p><a href="https://cesargomezs.github.io/ProyectVcard/" target='_blank'>{t[locale].portafolioSection.hrefs}</a></p>
+                    
                     <div className="carousel-wrappersized">
                         <Carousel3D images={images} locale={locale}/>
                     </div>
+                    
                 </div>
             </div>
             <div className="bg-shape bottom-shape" />

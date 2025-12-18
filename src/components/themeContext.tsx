@@ -68,8 +68,7 @@ useEffect(() => {
         // Opcional: añade 'light' si también lo usas como selector base
         htmlElement.classList.add('light'); 
     }
-    
-    console.log(`Tema aplicado: ${state.theme}`);
+  
     localStorage.setItem('theme', state.theme);
 }, [state.theme]);
 

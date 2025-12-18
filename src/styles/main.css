@@ -73,15 +73,13 @@ main {
     padding: 20px;
   }
   .project-card {
-    /* Fondo que contrasta con el negro/verde oscuro de la página */
+  
     background-color: #1a1a1a; 
     border: 1px solid #2e2e2e;
     border-radius: 8px;
     padding: 25px;
     margin-bottom: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
-    /* Fuente clara */
     color: #f0f0f0; 
 }
 
@@ -168,6 +166,13 @@ section {
     font-weight: bold;
     box-shadow: 0 6px 15px rgba(67, 154, 134, 0.45);
   }
+  .dark .lang-btn.active {
+    background: #2c7a65;
+    color: #fcd34d;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(44, 122, 101, 0.45);
+  }
+  
   
   .wrapper {
     display: grid;

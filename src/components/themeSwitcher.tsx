@@ -24,8 +24,8 @@ const ThemeSwitcher: React.FC = () => {
         border: 'none',
         borderRadius: '10px',
         // Estilos para el botón
-        backgroundColor: theme === 'light' ? '#0b7139' : '#0b7139',
-        color: theme === 'light' ? '#fff' : '#fff',
+        backgroundColor: theme === 'light' ? '#0b7139' : '#135312',
+        color: theme === 'light' ? '#0b7139' : '#135312',
       }}
     >
       {theme === 'light' ?  '🌙':'☀️'}

@@ -12,6 +12,11 @@
     box-shadow: 0 6px 8px #5a5d5a;
 }
 
+.dark .navbar {
+    background-color: #135312;
+    box-shadow: 0 6px 8px #2e2e2e;
+}
+
 .navbar-brand {
     font-size: 1.8em;
     font-weight: bold;
@@ -20,6 +25,11 @@
     color: white;
     text-decoration: none;
 }
+
+.dark .navbar-brand {
+    color: #ddd;
+}
+
 @media (max-width: 768px) {
     .navbar-brand {
         font-size: 1.2em;
@@ -39,6 +49,12 @@
     display: flex; /* For desktop view */
     box-shadow: 0 6px 8px #0b7139;
 }
+
+.dark .nav-links {
+    box-shadow: 0 6px 8px #135312;
+}
+
+
 .nav-links li {
     margin-left: 25px;
 }
@@ -71,6 +87,10 @@
     transition: all 0.3s ease-in-out;
 }
 
+.dark .hamburger .bar {
+    background-color: #ddd;
+}
+
 .nav-links.active {
     display: flex; /* Show when active */
     transform: translateY(0);
@@ -92,10 +112,18 @@
         border-top: 2px solid #ccc;
         transition: top 0.5s ease-in-out, border-top 0.5s ease-in-out;
     }
+    .dark .nav-links {
+        background-color: #135312;
+    }
     .nav-links.active {
         border-top: 2px solid #cccf;
         top: 60px; /* Adjust based on navbar height */
     }
+
+    .dark .nav-links.active {
+        border-top: 2px solid #555;
+    }
+    
     .nav-links li {
         margin: 10px 20px;
         text-align: center;

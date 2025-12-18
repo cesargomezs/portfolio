@@ -31,20 +31,19 @@ export const Navbar: React.FC<LocalizerProps>=({ locale }) => {
         onClick={() => setIsOpen(false)}
       >
         <li>
-        <i className="fa-house"></i>
-          <a href="#home">{t[locale].navbar.home}</a>
+        <a href="#home"><i className="fa-solid fa-house"></i> {t[locale].navbar.home}</a>
         </li>
         <li>
-          <a href="#about">{t[locale].navbar.about}</a>
+          <a href="#about"><i className="fa-solid fa-laptop-code"></i> {t[locale].navbar.about}</a>
         </li>
         <li>
-          <a href="#portafolioSection">{t[locale].navbar.portfolio}</a>
+          <a href="#portafolioSection"><i className="fa-solid fa-briefcase"></i> {t[locale].navbar.portfolio}</a>
         </li>
         <li>
-          <a href="#contact">{t[locale].navbar.contact}</a>
+          <a href="#contact"><i className="fa-regular fa-address-card"></i> {t[locale].navbar.contact}</a>
         </li>
         <li>
-          <a href="#experience">{t[locale].navbar.experience}</a>
+          <a href="#experience"><i className="fa-regular fa-building"></i> {t[locale].navbar.experience}</a>
         </li>
       </ul>
     </nav>

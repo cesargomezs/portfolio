@@ -17,14 +17,14 @@ export const About: React.FC<LocalizerProps>=({ locale }) => {
             </p>
 
               <button className="btn-primary">
-                  {t[locale].about.downloadResume}
+                  <a href="ResumenPageATS.pdf" target="_blank" color="#fff">{t[locale].about.downloadResume}</a>
               </button>
           </div>
           <div  className="profile-wrappersized ">
               <div className="profile-wrapper">
                 <img 
                   className="profile-image"
-                  src="../../fotoprof2.png"
+                  src="fotoprof2.png"
                   alt="Profile"
                 />
               </div>

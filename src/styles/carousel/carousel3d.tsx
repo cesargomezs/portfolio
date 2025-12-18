@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { type LocalizerProps, i18n as t } from '@/components/i18n/localizer';
+import { i18n as t } from '@/components/i18n/localizer';
 
 interface Carousel3DProps {
   images: string[];
@@ -16,12 +16,15 @@ const Carousel3D: React.FC<Carousel3DProps> = ({ images,locale }) => {
     return window.innerWidth < 640 ? 180 : 288;
   };
 
+
+
+  /*
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
     console.log("Image clicked");
     setIsActive(!isActive);
-  };
+  };*/
 
   const rotateCarousel = (newIndex: number) => {
     if (!carouselRef.current) return;
@@ -81,15 +84,17 @@ const Carousel3D: React.FC<Carousel3DProps> = ({ images,locale }) => {
                             translateZ(${getTranslateZ()}px)`
               }}
             >
-              <br />
-              <br />
-              <a href="" style={{alignContent:"center"}}>{t[locale].portafolioSection.projects[i]}</a>
-              <br />
-              <br />
-                <img onClick={handleClick} style={{
+              <div style={{position:"relative", textAlign:"center", top:"0px", padding:"5px" }}>
+                {t[locale].portafolioSection.projects[i]}
+              </div>
+
+                {/*                 <img onClick={handleClick} style={{
         opacity: isActive ? "0.1" : "10",
         cursor: "pointer",
       }}  src={src} alt={`slide-${i}`} />
+                  */}
+               <img src={src} alt={`slide-${i}`} />
+
               {/*
                   <div style={{position:"relative"}}>
                   <h5 style={{

@@ -10,7 +10,19 @@ export const Contact: React.FC<LocalizerProps>=({ locale }) => {
                 <h2 style={{textAlign:"center"}}>{t[locale].contact.title}</h2>
                 <span className="divider" />
                 <p>{t[locale].contact.paragraph1}</p>
-                <p>{t[locale].contact.sendMessage}</p>
+
+                <div style={{alignItems:'center',textAlign:'center'}}>
+
+                  <button className="btn-primary" style={{padding:"10px",margin:"10px"}}>
+                    {t[locale].contact.sendMessage}
+                  </button>
+                  
+                  <p><a href={`mailto:${t[locale].contact.email}`}>{t[locale].contact.email}: cesargomez853@gmail.com </a></p>
+                  <p>{t[locale].contact.phone}: +19512586016 </p>
+                  <p> 
+                    <img src="qr.png" alt="vCard QR Code" style={{width:"150px", height:"150px"}}/>
+                  </p>
+                </div>
             </div>
         </div>
         <div className="bg-shape bottom-shape" />

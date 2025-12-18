@@ -12,11 +12,6 @@ interface RootState {
 const LanguageSelector: React.FC = () => {
   const dispatch = useDispatch();
 
-  const locales = [
-    { label: "ES", value: "es-ES" },
-    { label: "EN", value: "en-US" },
-  ];
-
   // Obtener locale actual desde Redux
   let currentLocale = useSelector((state: RootState) => state.localizer.locale);
 
@@ -26,11 +21,6 @@ const LanguageSelector: React.FC = () => {
   }
 
   // Cambiar idioma desde el <select>
-  const handleLocaleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    const newLocale = event.target.value;
-
-    dispatch(localize({ locale: newLocale }));
-  };
 
   // Cambiar idioma desde los botones ES / EN
   const handleButtonChange = (locale: string) => {
