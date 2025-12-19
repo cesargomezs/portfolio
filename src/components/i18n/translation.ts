@@ -12,7 +12,8 @@ export const translation = {
         "sendMessage": "Send Message",
         "phone": "Phone",
         "email": "Email",
-        "vfcard": "VFCard"
+        "vfcard": "VFCard",
+        "acount":"cesargomez853@gmail.com"
       },
       "experiences": {
         "title": "Mi Experiencia",
@@ -107,7 +108,8 @@ export const translation = {
         "sendMessage": "Enviar Mensaje",
         "phone": "Teléfono",
         "email": "Email",
-        "vfcard": "VFCard"
+        "vfcard": "VFCard",
+        "acount":"cesargomez853@gmail.com"
       },
       "experiences": {
         "title": "Mi Experiencia",
@@ -203,7 +205,8 @@ export const translation = {
         "sendMessage": "Enviar Mensaje",
         "phone": "Teléfono",
         "email": "Email",
-        "vfcard": "VFCard"
+        "vfcard": "VFCard",
+        "acount":"cesargomez853@gmail.com"
       },
       "experiences": {
         "title": "Mi Experiencia",

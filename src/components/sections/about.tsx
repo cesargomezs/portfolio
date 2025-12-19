@@ -16,11 +16,11 @@ export const About: React.FC<LocalizerProps>=({ locale }) => {
               {t[locale].about.paragraph1}
             </p>
 
-              <button className="btn-primary">
+              <button className="file-link">
                   <a href="ResumenPageATS.pdf" target="_blank" color="#fff">{t[locale].about.downloadResume}</a>
               </button>
           </div>
-          <div  className="profile-wrappersized ">
+          <div  className="profile-wrappersized">
               <div className="profile-wrapper">
                 <img 
                   className="profile-image"

@@ -17,7 +17,7 @@ export const Contact: React.FC<LocalizerProps>=({ locale }) => {
                     {t[locale].contact.sendMessage}
                   </button>
                   
-                  <p><a href={`mailto:${t[locale].contact.email}`}>{t[locale].contact.email}: cesargomez853@gmail.com </a></p>
+                  <p><a href={`mailto:${t[locale].contact.email}`} className="custom-link" target='_blank'>{t[locale].contact.email}: cesargomez853@gmail.com </a></p>
                   <p>{t[locale].contact.phone}: +19512586016 </p>
                   <p> 
                     <img src="qr.png" alt="vCard QR Code" style={{width:"150px", height:"150px"}}/>

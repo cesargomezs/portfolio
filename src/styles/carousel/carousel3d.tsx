@@ -74,6 +74,10 @@ const Carousel3D: React.FC<Carousel3DProps> = ({ images,locale }) => {
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
+      <div style={{position:"relative", textAlign:"center", top:"1px"}} >
+         <strong>{t[locale].portafolioSection.projects[index]}</strong>
+      </div>
+      <br/>
         <div ref={carouselRef} className="carousel">
           {images.map((src, i) => (
             <div
@@ -84,9 +88,7 @@ const Carousel3D: React.FC<Carousel3DProps> = ({ images,locale }) => {
                             translateZ(${getTranslateZ()}px)`
               }}
             >
-              <div style={{position:"relative", textAlign:"center", top:"0px", padding:"5px" }}>
-                {t[locale].portafolioSection.projects[i]}
-              </div>
+
 
                 {/*                 <img onClick={handleClick} style={{
         opacity: isActive ? "0.1" : "10",

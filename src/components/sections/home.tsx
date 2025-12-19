@@ -13,8 +13,9 @@ export const Home: React.FC<LocalizerProps>=({ locale }) => {
           <span className="divider" />
             <p style={{fontStyle:"italic"}}>
               {t[locale].home.paragraph1}
-            <br/>
-              <strong>{t[locale].home.author}</strong>
+            </p>
+            <p>
+              <strong style={{fontStyle:"italic"}}>{t[locale].home.author}</strong>
             </p>
           </div>
       </div>

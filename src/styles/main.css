@@ -180,3 +180,53 @@ section {
     column-gap: 1px;
     
   }
+
+  .file-link {
+    background: #135312;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #b6c3bb;
+    font-weight: 600;
+    position: relative;
+  }
+
+.dark .file-link {
+    background: #269c3a;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+    
+  .custom-link {
+    color: #22c55e;
+    font-weight: 600;
+    position: relative;
+  }
+
+  .dark .custom-link {
+    color: #2c7a65;
+  }
+  
+  .custom-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: currentColor;
+    left: 0;
+    bottom: -4px;
+    transition: width 0.3s ease;
+  }
+  
+  .custom-link:hover::after {
+    width: 100%;
+  }
+  
