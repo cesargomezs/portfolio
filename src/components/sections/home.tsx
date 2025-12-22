@@ -9,13 +9,13 @@ export const Home: React.FC<LocalizerProps>=({ locale }) => {
     <div className="bg-shape top-shape" />
       <div className="about-container">
        <div className="about-text">
-          <h2 style={{textAlign:"center"}}>{t[locale].home.title}</h2>
+          <h2 style={{textAlign:"center",padding:'5%'}}>{t[locale].home.title}</h2>
           <span className="divider" />
-            <p style={{fontStyle:"italic"}}>
+            <p style={{fontStyle:"italic" , padding:'5%'}}>
               {t[locale].home.paragraph1}
             </p>
             <p>
-              <strong style={{fontStyle:"italic"}}>{t[locale].home.author}</strong>
+              <strong style={{fontStyle:"italic", padding:'5%'}}>{t[locale].home.author}</strong>
             </p>
           </div>
       </div>

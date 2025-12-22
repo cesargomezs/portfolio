@@ -13,22 +13,31 @@ export const translation = {
         "phone": "Phone",
         "email": "Email",
         "vfcard": "VFCard",
-        "acount":"cesargomez853@gmail.com"
+        "mailto": "cesargomez853@gmail.com",
+        "saveqr": "Easily save my contact",
+        "scanqr": "Scan the QR code and add my vCard in seconds.",
+        "compatible": "Compatible with iPhone and Android · No apps required"
       },
       "experiences": {
         "title": "Mi Experiencia",
         "paragraph1": "Aquí se muestran mis trabajos más recientes en desarrollo web resposible.",
         "companiesName": [
-          "Digital Ware S.A."
+          "Digital Ware S.A.",
+          "Michael Page / Avianca",
+          "CapitalSaludEPS S.A.S",
         ],
         "companiesDurations": [
-          "June 2020 - Jan 2024"
+          "June 2020 - Jan 2024",
+          "Jan 2019 - Jan 2020",
+          "June 2016 - June 2018",
+          "Nov 2005 - June 2016"
         ],
         "companiesRoles": [
           "ENGINEERING MANAGER",
-          "Design and Integration",
-          "API Development",
-          "Front-end Integration"
+          ".NET ENGINEER",
+          "DEVELOPMENT ENGINEER",
+          "DEVELOPMENT ENGINEER",
+          "INFORMATION AND MANAGEMENT ANALYST"
         ],
         "companiesTittle": [
           "Software Architecture and Development",
@@ -43,12 +52,57 @@ export const translation = {
           "API Development",
           "Front-end Integration"
         ],
-        "companiesDescriptions": [
+        "companiesDescriptionsTitle1": "Software Architecture and Development",
+        "companiesDescriptionsTitle2": "Database and Code Quality",
+        "companiesDescriptionsTitle3": "Technical Leadership and Solution Architecture",
+        "companiesDescriptionsTitle4": "Standardization and Operational Quality (DevOps)",
+        "companiesDescriptionsTitle6": "Cloud Services and Platforms",
+
+        "companiesDescriptions11": [
+
+          "Core Development: Advanced experience in the .NET Core (3.1-5.0-8.0) ecosystem (and higher), rigorously applying SOLID principles to build clean, scalable, and maintainable code.",
+          "Design and Integration: Lead the design of system functionalities, ensuring alignment with the overall architecture. Collaborate in architectural definitions of the solution.",
+          "API Development: Creation of robust API / REST services for inter-system communication.",
+          "Front-end Integration: Experience integrating modern front-end applications (e.g., Angular 9 - DevExtreme) with backend services.",
+         
+         
+          /*
           "Advanced experience in the .NET Core (3.1-5.0-8.0) ecosystem (and higher), rigorously applying SOLID principles to build clean, scalable, and maintainable code.",
           "Lead the design of system functionalities, ensuring alignment with the overall architecture. Collaborate in architectural definitions of the solution.",
           "Creation of robust API / REST services for inter-system communication.",
-          "Experience integrating modern front-end applications (e.g., Angular 9 - DevExtreme) with backend services."
+          "Experience integrating modern front-end applications (e.g., Angular 9 - DevExtreme) with backend services.",
+          "Databases: Creation and administration of SQL Server relational databases, including modeling and optimization.",
+          "Testing and QA: Execution of unit and stress tests to ensure functionality, performance, and stability of services and applications.",
+          "Operational Stability: Conduct Root Cause Analysis (RCA) to resolve recurring incidents, implementing long-term corrective and preventive measures.",
+          "Lead the entire Software Development Life Cycle (SDLC), from conceptual design to maintenance, covering multichannel solutions (mobile, web, desktop).",
+          "Actively collaborate on architectural definitions to ensure that feature designs are scalable, robust, and aligned with platform standards.",
+          "Design and develop complex functionalities, ensuring their consistent integration within the overall system architecture.",
+          "Define and promote processes, best practices, standards, and methodologies (e.g., Agile) to ensure code quality and team efficiency.",
+          "Ensure system stability through Root Cause Analysis (RCA) of recurring incidents, implementing permanent solutions to improve availability.",
+          "Master and apply Git versioning strategies for effective source code management and team collaboration.",
+          "Implement and manage Microsoft Azure cloud services, focusing on efficient deployment and infrastructure optimization (IaaS, PaaS, Serverless).",
+          "Apply Full Stack engineering principles, working on business logic, databases, and user interfaces to deliver complete solutions."*/
+        ],
+        "companiesDescriptions12": [
+          "Databases: Creation and administration of SQL Server relational databases, including modeling and optimization.",
+          "Testing and QA: Execution of unit and stress tests to ensure functionality, performance, and stability of services and applications.",
+          "Operational Stability: Conduct Root Cause Analysis (RCA) to resolve recurring incidents, implementing long-term corrective and preventive measures."
+        ],
+        "companiesDescriptions13": [
+          "Lead the entire Software Development Life Cycle (SDLC), from conceptual design to maintenance, covering multichannel solutions (mobile, web, desktop).",
+          "Actively collaborate on architectural definitions to ensure that feature designs are scalable, robust, and aligned with platform standards.",
+          "Design and develop complex functionalities, ensuring their consistent integration within the overall system architecture."
+        ],
+        "companiesDescriptions14": [
+          "Define and promote processes, best practices, standards, and methodologies (e.g., Agile) to ensure code quality and team efficiency.",
+          "Ensure system stability through Root Cause Analysis (RCA) of recurring incidents, implementing permanent solutions to improve availability.",
+          "Master and apply Git versioning strategies for effective source code management and team collaboration."
+        ],
+        "companiesDescriptions15": [
+          "Implement and manage Microsoft Azure cloud services, focusing on efficient deployment and infrastructure optimization (IaaS, PaaS, Serverless).",
+          "Apply Full Stack engineering principles, working on business logic, databases, and user interfaces to deliver complete solutions."
         ]
+
       },
       "home": {
         "title": "Welcome to my Portfolio",
@@ -109,43 +163,76 @@ export const translation = {
         "phone": "Teléfono",
         "email": "Email",
         "vfcard": "VFCard",
-        "acount":"cesargomez853@gmail.com"
+        "mailto": "cesargomez853@gmail.com",
+        "saveqr":"Guarda mi contacto fácilmente",
+        "scanqr":"Escanea el código QR y agrega mi vCard en segundos.",
+        "compatible":"Compatible con iPhone y Android · No requiere apps"
       },
       "experiences": {
         "title": "Mi Experiencia",
         "paragraph1": "Aquí se muestran mis trabajos más recientes en desarrollo web resposible.",
         "companiesName": [
-          "Digital Ware S.A."
+          "Digital Ware S.A.",
+          "Michael Page / Avianca",
+          "CapitalSaludEPS S.A.S",
         ],
         "companiesDurations": [
-          "June 2020 - Jan 2024"
+          "junio 2020 - enero 2024",
+          "enero 2019 - enero 2020",
+          "junio 2016 - junio 2018",
+          "noviembre 2005 - junio 2016"
         ],
         "companiesRoles": [
           "ENGINEERING MANAGER",
-          "Design and Integration",
-          "API Development",
-          "Front-end Integration"
+          ".NET ENGINEER",
+          "DEVELOPMENT ENGINEER",
+          "DEVELOPMENT ENGINEER",
+          "INFORMATION AND MANAGEMENT ANALYST" 
         ],
         "companiesTittle": [
-          "Software Architecture and Development",
-          "Database and Code Quality",
-          "Technical Leadership and Solution Architecture",
-          "Standardization and Operational Quality (DevOps)",
-          "Cloud Services and Platforms"
+          "Arquitectura y desarrollo de software",
+          "Calidad de la base de datos y del código",
+          "Liderazgo técnico y arquitectura de soluciones",
+          "Estandarización y Calidad Operacional (DevOps)",
+          "Servicios y plataformas en la nube"
         ],
         "companiesSubtitle": [
           "Core Development",
-          "Design and Integration",
-          "API Development",
-          "Front-end Integration"
+          "Diseño e Integración",
+          "Desarrollo de API",
+          "Integración Front-end"
         ],
-        "companiesDescriptions": [
-          "Desarrollé y mantuve funcionalidades clave para aplicaciones web de alta disponibilidad, mejorando la experiencia del usuario y optimizando el rendimiento del sistema.",
-          "Diseñé e implementé soluciones de integración para sistemas existentes, asegurando una comunicación fluida entre diferentes plataformas y mejorando la eficiencia operativa.",
-          "Creé y gestioné APIs RESTful que permitieron una integración efectiva con aplicaciones móviles y web, facilitando el acceso a datos en tiempo real.",
-          "Colaboré en la integración front-end utilizando frameworks modernos, asegurando una interfaz de usuario atractiva y funcional."
-        ]
+        "companiesDescriptionsTitle1": "Arquitectura y desarrollo de software",
+        "companiesDescriptionsTitle2": "Calidad de bases de datos y código",
+        "companiesDescriptionsTitle3": "Liderazgo técnico y arquitectura de soluciones",
+        "companiesDescriptionsTitle4": "Estandarización y calidad operativa (DevOps)",
+        "companiesDescriptionsTitle5": "Servicios y plataformas en la nube",
 
+        "companiesDescriptions11": [
+          "Desarrollo de Core: Experiencia avanzada en el ecosistema .NET Core (3.1-5.0-8.0) (y versiones superiores), aplicando rigurosamente los principios SOLID para crear código limpio, escalable y fácil de mantener.",
+          "Diseño e Integración: Liderar el diseño de las funcionalidades del sistema, garantizando su alineación con la arquitectura general. Colaborar en la definición arquitectónica de la solución.",
+          "Desarrollo de API: Creación de servicios API/REST robustos para la comunicación entre sistemas.",
+          "Integración Front-end: Experiencia en la integración de aplicaciones front-end modernas (p. ej., Angular 9 - DevExtreme) con servicios back-end."
+        ],
+        "companiesDescriptions12": [
+          "Bases de datos: Creación y administración de bases de datos relacionales de SQL Server, incluyendo modelado y optimización.",
+          "Pruebas y control de calidad: Ejecución de pruebas unitarias y de estrés para garantizar la funcionalidad, el rendimiento y la estabilidad de los servicios y aplicaciones.",
+          "Estabilidad operativa: Realizar análisis de causa raíz (RCA) para resolver incidentes recurrentes e implementar medidas correctivas y preventivas a largo plazo."
+        ],
+        "companiesDescriptions13": [
+          "Liderar todo el ciclo de vida del desarrollo de software (SDLC), desde el diseño conceptual hasta el mantenimiento, abarcando soluciones multicanal (móvil, web, escritorio).",
+          "Colaborar activamente en las definiciones arquitectónicas para garantizar que los diseños de funciones sean escalables, robustos y estén alineados con los estándares de la plataforma.",
+          "Diseñar y desarrollar funcionalidades complejas, asegurando su integración consistente en la arquitectura general del sistema."
+        ],
+      "companiesDescriptions14": [
+          "Definir y promover procesos, mejores prácticas, estándares y metodologías (p. ej., Agile) para garantizar la calidad del código y la eficiencia del equipo.",
+          "Garantizar la estabilidad del sistema mediante el Análisis de Causa Raíz (RCA) de incidentes recurrentes, implementando soluciones permanentes para mejorar la disponibilidad.",
+          "Dominar y aplicar estrategias de versionado de Git para una gestión eficaz del código fuente y la colaboración en equipo."
+        ],
+      "companiesDescriptions15": [
+          "Implementar y administrar los servicios en la nube de Microsoft Azure, con énfasis en la implementación eficiente y la optimización de la infraestructura (IaaS, PaaS, Serverless).",
+          "Aplicar los principios de ingeniería Full Stack, trabajando en la lógica de negocio, las bases de datos y las interfaces de usuario para ofrecer soluciones completas."
+        ]
       },
       "home": {
         "title": "Bienvenido a mi Portafolio",
@@ -206,41 +293,75 @@ export const translation = {
         "phone": "Teléfono",
         "email": "Email",
         "vfcard": "VFCard",
-        "acount":"cesargomez853@gmail.com"
+        "mailto":"cesargomez853@gmail.com",
+        "saveqr":"Guarda mi contacto fácilmente",
+        "scanqr":"Escanea el código QR y agrega mi vCard en segundos.",
+        "compatible":"Compatible con iPhone y Android · No requiere apps"
       },
       "experiences": {
         "title": "Mi Experiencia",
         "paragraph1": "Aquí se muestran mis trabajos más recientes en desarrollo web resposible.",
         "companiesName": [
-          "Digital Ware S.A."
+          "Digital Ware S.A.",
+          "Michael Page / Avianca",
+          "CapitalSaludEPS S.A.S",
         ],
         "companiesDurations": [
-          "June 2020 - Jan 2024"
+          "junio 2020 - enero 2024",
+          "enero 2019 - enero 2020",
+          "junio 2016 - junio 2018",
+          "noviembre 2005 - junio 2016"
         ],
         "companiesRoles": [
           "ENGINEERING MANAGER",
-          "Design and Integration",
-          "API Development",
-          "Front-end Integration"
+          ".NET ENGINEER",
+          "DEVELOPMENT ENGINEER",
+          "DEVELOPMENT ENGINEER",
+          "INFORMATION AND MANAGEMENT ANALYST" 
         ],
         "companiesTittle": [
-          "Software Architecture and Development",
-          "Database and Code Quality",
-          "Technical Leadership and Solution Architecture",
-          "Standardization and Operational Quality (DevOps)",
-          "Cloud Services and Platforms"
+          "Arquitectura y desarrollo de software",
+          "Calidad de la base de datos y del código",
+          "Liderazgo técnico y arquitectura de soluciones",
+          "Estandarización y Calidad Operacional (DevOps)",
+          "Servicios y plataformas en la nube"
         ],
         "companiesSubtitle": [
           "Core Development",
-          "Design and Integration",
-          "API Development",
-          "Front-end Integration"
+          "Diseño e Integración",
+          "Desarrollo de API",
+          "Integración Front-end"
         ],
-        "companiesDescriptions": [
-          "Desarrollé y mantuve funcionalidades clave para aplicaciones web de alta disponibilidad, mejorando la experiencia del usuario y optimizando el rendimiento del sistema.",
-          "Diseñé e implementé soluciones de integración para sistemas existentes, asegurando una comunicación fluida entre diferentes plataformas y mejorando la eficiencia operativa.",
-          "Creé y gestioné APIs RESTful que permitieron una integración efectiva con aplicaciones móviles y web, facilitando el acceso a datos en tiempo real.",
-          "Colaboré en la integración front-end utilizando frameworks modernos, asegurando una interfaz de usuario atractiva y funcional."
+        "companiesDescriptionsTitle1": "Arquitectura y desarrollo de software",
+        "companiesDescriptionsTitle2": "Calidad de bases de datos y código",
+        "companiesDescriptionsTitle3": "Liderazgo técnico y arquitectura de soluciones",
+        "companiesDescriptionsTitle4": "Estandarización y calidad operativa (DevOps)",
+        "companiesDescriptionsTitle5": "Servicios y plataformas en la nube",
+
+        "companiesDescriptions11": [
+          "Desarrollo de Core: Experiencia avanzada en el ecosistema .NET Core (3.1-5.0-8.0) (y versiones superiores), aplicando rigurosamente los principios SOLID para crear código limpio, escalable y fácil de mantener.",
+          "Diseño e Integración: Liderar el diseño de las funcionalidades del sistema, garantizando su alineación con la arquitectura general. Colaborar en la definición arquitectónica de la solución.",
+          "Desarrollo de API: Creación de servicios API/REST robustos para la comunicación entre sistemas.",
+          "Integración Front-end: Experiencia en la integración de aplicaciones front-end modernas (p. ej., Angular 9 - DevExtreme) con servicios back-end."
+        ],
+        "companiesDescriptions12": [
+          "Bases de datos: Creación y administración de bases de datos relacionales de SQL Server, incluyendo modelado y optimización.",
+          "Pruebas y control de calidad: Ejecución de pruebas unitarias y de estrés para garantizar la funcionalidad, el rendimiento y la estabilidad de los servicios y aplicaciones.",
+          "Estabilidad operativa: Realizar análisis de causa raíz (RCA) para resolver incidentes recurrentes e implementar medidas correctivas y preventivas a largo plazo."
+        ],
+        "companiesDescriptions13": [
+          "Liderar todo el ciclo de vida del desarrollo de software (SDLC), desde el diseño conceptual hasta el mantenimiento, abarcando soluciones multicanal (móvil, web, escritorio).",
+          "Colaborar activamente en las definiciones arquitectónicas para garantizar que los diseños de funciones sean escalables, robustos y estén alineados con los estándares de la plataforma.",
+          "Diseñar y desarrollar funcionalidades complejas, asegurando su integración consistente en la arquitectura general del sistema."
+        ],
+      "companiesDescriptions14": [
+          "Definir y promover procesos, mejores prácticas, estándares y metodologías (p. ej., Agile) para garantizar la calidad del código y la eficiencia del equipo.",
+          "Garantizar la estabilidad del sistema mediante el Análisis de Causa Raíz (RCA) de incidentes recurrentes, implementando soluciones permanentes para mejorar la disponibilidad.",
+          "Dominar y aplicar estrategias de versionado de Git para una gestión eficaz del código fuente y la colaboración en equipo."
+        ],
+      "companiesDescriptions15": [
+          "Implementar y administrar los servicios en la nube de Microsoft Azure, con énfasis en la implementación eficiente y la optimización de la infraestructura (IaaS, PaaS, Serverless).",
+          "Aplicar los principios de ingeniería Full Stack, trabajando en la lógica de negocio, las bases de datos y las interfaces de usuario para ofrecer soluciones completas."
         ]
       },
       "home": {

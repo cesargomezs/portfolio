@@ -7,21 +7,27 @@ export const Contact: React.FC<LocalizerProps>=({ locale }) => {
     <div className="bg-shape top-shape" />
         <div className="about-container">
             <div className="about-text">
-                <h2 style={{textAlign:"center"}}>{t[locale].contact.title}</h2>
+                <h2 style={{textAlign:"center", padding:'5%'}}>{t[locale].contact.title}</h2>
                 <span className="divider" />
                 <p>{t[locale].contact.paragraph1}</p>
 
-                <div style={{alignItems:'center',textAlign:'center'}}>
-
-                  <button className="btn-primary" style={{padding:"10px",margin:"10px"}}>
+                <div style={{alignItems:'center',textAlign:'center', padding:'2%'}}>
+                  {/*
+                  <button className="btn-primary" style={{padding:"2%",margin:"10px" }}>
                     {t[locale].contact.sendMessage}
-                  </button>
-                  
-                  <p><a href={`mailto:${t[locale].contact.email}`} className="custom-link" target='_blank'>{t[locale].contact.email}: cesargomez853@gmail.com </a></p>
-                  <p>{t[locale].contact.phone}: +19512586016 </p>
-                  <p> 
-                    <img src="qr.png" alt="vCard QR Code" style={{width:"150px", height:"150px"}}/>
-                  </p>
+                  </button>*/}
+                <p><a href={`mailto:${t[locale].contact.email}`} className="custom-link" target='_blank'>{t[locale].contact.email}: cesargomez853@gmail.com </a></p>
+                <h3>📲 {t[locale].contact.saveqr}</h3>
+                <p className="qr-subtitle">
+                  {t[locale].contact.scanqr}
+                </p>
+                <p style={{padding:'4%'}}> 
+                <img src="qr.png" alt="QR vCard" className="qr-img" />
+                </p>
+                
+                <span className="qr-note">
+                  {t[locale].contact.compatible}
+                </span>
                 </div>
             </div>
         </div>

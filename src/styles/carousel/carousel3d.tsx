@@ -112,6 +112,7 @@ const Carousel3D: React.FC<Carousel3DProps> = ({ images,locale }) => {
       </div>
 
       <div className="controls">
+        <br/>
         <button onClick={prev}>‹</button>
         <button onClick={next}>›</button>
       </div>

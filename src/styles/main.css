@@ -19,14 +19,70 @@ main {
     height: auto;
 }
 
-.container-main {
-    /* Define un ancho máximo para centrar el contenido en pantallas grandes */
-    width: 80vw;
-
-    margin: 0 auto; /* Centra el div horizontalmente */
-    padding: 20px; /* Espacio interno para que el contenido no toque los bordes */
-    
+.about-text {
+    flex: 1;
+    text-align: left;
 }
+
+.dark .about-text {
+    color: #a3a7a1d5;
+}
+
+.about-text h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+    
+.dark .about-text h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #e1e4e0;
+}
+
+.about-text p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.dark .about-text p {
+    color: #c7ccc5;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+    
+
+.container-main {
+    width: 80vw;
+    margin: 0 auto; 
+    padding: 20px; 
+}
+body {
+    background: #f0fdf4; /* Fondo claro por defecto */
+    color: #010207; /* Texto oscuro por defecto */
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-primary {
+    background: #269c3a;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+    
+.dark .btn-primary {
+    background: #135312;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
 .projects-section {
     /* Aplica el gradiente SÓLO a esta sección o a un fondo específico de esta sección */
     background: linear-gradient(180deg, #002e21, #000000); 
@@ -41,56 +97,11 @@ main {
     color: #10b981; /* Color verde esmeralda para el título */
 }
 
-.background-image {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    filter: blur(2px);
-    object-fit: cover;
-    background-attachment: scroll ;
-
-}
-.dark .background-image {
-    opacity: 0.2; 
-     
-}
-
-.cuadro-react {
-    width: 90vw; /* Ancho */
-    height: 20vh; /* Alto (igual al ancho para un cuadrado) */
-    background-color: #3498db; /* Color de fondo */
-    border: 2px solid #2980b9; /* Borde opcional */
-
-    text-align: center; /* Centrar texto */
-    color: white; /* Color del texto */
-    font-size: 18px;
-    margin-top: 60px;
-
-    margin: 0 auto; /* Centra el div horizontalmente */
-    padding: 20px;
-  }
-  .project-card {
-  
-    background-color: #1a1a1a; 
-    border: 1px solid #2e2e2e;
-    border-radius: 8px;
-    padding: 25px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    color: #f0f0f0; 
-}
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vw;
-    padding: 4em;
-    min-height: fit-content;
+    min-height: 100vh;
+    height: auto;
+    padding: clamp(2rem, 6vw, 4rem);
 }
 
 .psection {
@@ -102,8 +113,11 @@ section {
 }
 
 .dark .psection {
-    color: #020617;
+    color: #010205fd;
+    background-color: #000000;
 }
+
+
 
 .psectiondescription{
     align-items: justify ; 
@@ -143,6 +157,11 @@ section {
     border-radius: 9999px;
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
+
+  .dark .lang-container {
+    background: #11182799; /* gray-900/60 */
+
+  }
   
   .lang-btn {
     padding: 6px 16px;
@@ -155,7 +174,7 @@ section {
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  
+
   .lang-btn:hover {
     color: #ffffff;
   }
@@ -166,14 +185,28 @@ section {
     font-weight: bold;
     box-shadow: 0 6px 15px rgba(67, 154, 134, 0.45);
   }
+
+  .dark .lang-btn.active        
+  {
+    background: #135312;
+    color: #fcd34d;
+    font-weight: bold;
+    box-shadow: 0 6px 15px #2c7a65;
+  }
+
+  .dark .lang-btn {
+    color: #ddd;
+    background-color: #2d303599;
+  }
+
+
   .dark .lang-btn.active {
     background: #2c7a65;
     color: #fcd34d;
     font-weight: bold;
-    box-shadow: 0 6px 15px rgba(44, 122, 101, 0.45);
+    box-shadow: 0 6px 15px #2c7a6573;
   }
-  
-  
+
   .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -182,7 +215,7 @@ section {
   }
 
   .file-link {
-    background: #135312;
+    background: #269c3a;
     padding: 0.8rem 1.5rem;
     border-radius: 6px;
     border: none;
@@ -195,7 +228,7 @@ section {
   }
 
 .dark .file-link {
-    background: #269c3a;
+    background: #135312;
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 6px;
@@ -230,3 +263,31 @@ section {
     width: 100%;
   }
   
+  .qr-img {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin: 0.5rem auto 0.75rem;
+  }
+
+  .divider {
+
+    display: block;
+    
+    width: 50px;
+    
+    height: 4px;
+    
+    background: #135312;
+    
+    margin: 0.5rem 0 1.5rem;
+    
+    }
+    
+    
+    
+    .dark .divider {
+    
+    background: #8eb595;
+    
+    }

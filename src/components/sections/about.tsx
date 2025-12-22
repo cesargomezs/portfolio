@@ -10,12 +10,11 @@ export const About: React.FC<LocalizerProps>=({ locale }) => {
     <div className="bg-shape top-shape" />
       <div className="about-container">
        <div className="about-text">
-          <h2 style={{textAlign:"center"}}>{t[locale].about.title}</h2>
+          <h2 style={{textAlign:"center" ,padding:'5%'}}>{t[locale].about.title}</h2>
           <span className="divider" />
             <p>
               {t[locale].about.paragraph1}
             </p>
-
               <button className="file-link">
                   <a href="ResumenPageATS.pdf" target="_blank" color="#fff">{t[locale].about.downloadResume}</a>
               </button>
@@ -35,5 +34,4 @@ export const About: React.FC<LocalizerProps>=({ locale }) => {
   </section>
   );
 };
-
 export default About;
