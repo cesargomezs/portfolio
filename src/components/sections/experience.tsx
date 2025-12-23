@@ -12,15 +12,23 @@ export const Experience: React.FC<LocalizerProps>=({ locale }) => {
                         <p>{t[locale].experiences.paragraph1}</p>
                         <p><strong>{t[locale].experiences.companiesRoles[0]}</strong></p>
                         <p>{t[locale].experiences.companiesName[0]} - {t[locale].experiences.companiesDurations[0]}</p>
+     
+                        <p><strong>{t[locale].experiences.companiesRoles[1]}</strong></p>
+                        <p>{t[locale].experiences.companiesName[1]} - {t[locale].experiences.companiesDurations[1]}</p>
+     
+                        <p><strong>{t[locale].experiences.companiesRoles[2]}</strong></p>
+                        <p>{t[locale].experiences.companiesName[2]} - {t[locale].experiences.companiesDurations[2]}</p>
+     
+                        <p><strong>{t[locale].experiences.companiesRoles[3]}</strong></p>
+                        <p>{t[locale].experiences.companiesName[3]} - {t[locale].experiences.companiesDurations[3]}</p>
+     
+                        <p><strong>{t[locale].experiences.companiesRoles[4]}</strong></p>
+                        <p>{t[locale].experiences.companiesName[4]} - {t[locale].experiences.companiesDurations[4]}</p>
+     
+                        <span className="divider" />
+
                         <p style={{fontStyle:"italic" ,padding:'2%'}}><strong>{t[locale].experiences.companiesTittle[0]}</strong></p>
-                        <p>{t[locale].experiences.companiesDescriptions11}</p>
-                        {/*<p>
-                            {t[locale].experiences.companiesDescriptions11.map((item, index) => {
-                                return <li key={index}>{item}</li>;
-                                }   
-                                )
-                            }
-                        </p>*/}
+                        <p>{t[locale].experiences.companiesDescriptions01}</p>
                         <p style={{fontStyle:"italic" ,padding:'2%'}}><strong>{t[locale].experiences.companiesTittle[1]}</strong></p>
                         <p>{t[locale].experiences.companiesDescriptions12}</p>
                         <p style={{fontStyle:"italic" ,padding:'2%'}}><strong>{t[locale].experiences.companiesTittle[2]}</strong></p>

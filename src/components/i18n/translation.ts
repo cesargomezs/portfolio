@@ -19,20 +19,25 @@ export const translation = {
         "compatible": "Compatible with iPhone and Android · No apps required"
       },
       "experiences": {
-        "title": "Mi Experiencia",
-        "paragraph1": "Aquí se muestran mis trabajos más recientes en desarrollo web resposible.",
+        "title": "My Experience",
+        "paragraph1": "Here are my most recent works in responsive web development.",
         "companiesName": [
-          "Digital Ware S.A.",
-          "Michael Page / Avianca",
-          "CapitalSaludEPS S.A.S",
+          "Operations & Logistics Associate | iLAD INC - Fontana, California",
+          "Digital Ware S.A. - Bogotá, Colombia",
+          "Michael Page / Avianca - Bogotá, Colombia",
+          "CapitalSalud EPS - Bogotá, Colombia",
+          "People Tech Latin S.A.S - Bogotá, Colombia",
+          "Colsanitas S.A. - Bogotá, Colombia"
         ],
         "companiesDurations": [
+          "Jan 2024 - Present",
           "June 2020 - Jan 2024",
           "Jan 2019 - Jan 2020",
           "June 2016 - June 2018",
           "Nov 2005 - June 2016"
         ],
         "companiesRoles": [
+          "DRIVER",
           "ENGINEERING MANAGER",
           ".NET ENGINEER",
           "DEVELOPMENT ENGINEER",
@@ -40,6 +45,7 @@ export const translation = {
           "INFORMATION AND MANAGEMENT ANALYST"
         ],
         "companiesTittle": [
+          "Operations & Logistics Associate",
           "Software Architecture and Development",
           "Database and Code Quality",
           "Technical Leadership and Solution Architecture",
@@ -52,36 +58,25 @@ export const translation = {
           "API Development",
           "Front-end Integration"
         ],
+        "companiesDescriptionsTitle0": "Operations & Logistics Associate",
         "companiesDescriptionsTitle1": "Software Architecture and Development",
         "companiesDescriptionsTitle2": "Database and Code Quality",
         "companiesDescriptionsTitle3": "Technical Leadership and Solution Architecture",
         "companiesDescriptionsTitle4": "Standardization and Operational Quality (DevOps)",
         "companiesDescriptionsTitle6": "Cloud Services and Platforms",
 
-        "companiesDescriptions11": [
+        "companiesDescriptions01": [
+        "Supported daily warehouse operations, including receiving, picking, packing, and inventory control.",
+        "Maintained accurate inventory records using warehouse management systems and scanning technology.",
+        "Improved operational efficiency through workflow organization and adherence to standardized procedures.",
+        "Assisted with staff onboarding and operational training."
+        ],
 
+        "companiesDescriptions11": [
           "Core Development: Advanced experience in the .NET Core (3.1-5.0-8.0) ecosystem (and higher), rigorously applying SOLID principles to build clean, scalable, and maintainable code.",
           "Design and Integration: Lead the design of system functionalities, ensuring alignment with the overall architecture. Collaborate in architectural definitions of the solution.",
           "API Development: Creation of robust API / REST services for inter-system communication.",
           "Front-end Integration: Experience integrating modern front-end applications (e.g., Angular 9 - DevExtreme) with backend services.",
-         
-         
-          /*
-          "Advanced experience in the .NET Core (3.1-5.0-8.0) ecosystem (and higher), rigorously applying SOLID principles to build clean, scalable, and maintainable code.",
-          "Lead the design of system functionalities, ensuring alignment with the overall architecture. Collaborate in architectural definitions of the solution.",
-          "Creation of robust API / REST services for inter-system communication.",
-          "Experience integrating modern front-end applications (e.g., Angular 9 - DevExtreme) with backend services.",
-          "Databases: Creation and administration of SQL Server relational databases, including modeling and optimization.",
-          "Testing and QA: Execution of unit and stress tests to ensure functionality, performance, and stability of services and applications.",
-          "Operational Stability: Conduct Root Cause Analysis (RCA) to resolve recurring incidents, implementing long-term corrective and preventive measures.",
-          "Lead the entire Software Development Life Cycle (SDLC), from conceptual design to maintenance, covering multichannel solutions (mobile, web, desktop).",
-          "Actively collaborate on architectural definitions to ensure that feature designs are scalable, robust, and aligned with platform standards.",
-          "Design and develop complex functionalities, ensuring their consistent integration within the overall system architecture.",
-          "Define and promote processes, best practices, standards, and methodologies (e.g., Agile) to ensure code quality and team efficiency.",
-          "Ensure system stability through Root Cause Analysis (RCA) of recurring incidents, implementing permanent solutions to improve availability.",
-          "Master and apply Git versioning strategies for effective source code management and team collaboration.",
-          "Implement and manage Microsoft Azure cloud services, focusing on efficient deployment and infrastructure optimization (IaaS, PaaS, Serverless).",
-          "Apply Full Stack engineering principles, working on business logic, databases, and user interfaces to deliver complete solutions."*/
         ],
         "companiesDescriptions12": [
           "Databases: Creation and administration of SQL Server relational databases, including modeling and optimization.",
@@ -102,7 +97,6 @@ export const translation = {
           "Implement and manage Microsoft Azure cloud services, focusing on efficient deployment and infrastructure optimization (IaaS, PaaS, Serverless).",
           "Apply Full Stack engineering principles, working on business logic, databases, and user interfaces to deliver complete solutions."
         ]
-
       },
       "home": {
         "title": "Welcome to my Portfolio",
@@ -172,17 +166,22 @@ export const translation = {
         "title": "Mi Experiencia",
         "paragraph1": "Aquí se muestran mis trabajos más recientes en desarrollo web resposible.",
         "companiesName": [
-          "Digital Ware S.A.",
-          "Michael Page / Avianca",
-          "CapitalSaludEPS S.A.S",
+          "iLAD INC - Fontana, California",
+          "Digital Ware S.A. - Bogotá, Colombia",
+          "Michael Page / Avianca - Bogotá, Colombia",
+          "CapitalSalud EPS - Bogotá, Colombia",
+          "People Tech Latin S.A.S - Bogotá, Colombia",
+          "Colsanitas S.A. - Bogotá, Colombia"
         ],
         "companiesDurations": [
-          "junio 2020 - enero 2024",
-          "enero 2019 - enero 2020",
-          "junio 2016 - junio 2018",
-          "noviembre 2005 - junio 2016"
+          "Ene 2024 - Actual",
+          "Jun 2020 - Ene 2024",
+          "Ene 2019 - Ene 2020",
+          "Jun 2016 - Jun 2018",
+          "Nov 2005 - Jun 2016"
         ],
         "companiesRoles": [
+          "DRIVER",
           "ENGINEERING MANAGER",
           ".NET ENGINEER",
           "DEVELOPMENT ENGINEER",
@@ -190,6 +189,7 @@ export const translation = {
           "INFORMATION AND MANAGEMENT ANALYST" 
         ],
         "companiesTittle": [
+          "Asociado de Operaciones y Logística",
           "Arquitectura y desarrollo de software",
           "Calidad de la base de datos y del código",
           "Liderazgo técnico y arquitectura de soluciones",
@@ -202,12 +202,21 @@ export const translation = {
           "Desarrollo de API",
           "Integración Front-end"
         ],
+
+        "companiesDescriptionsTitle0": "Asociado de Operaciones y Logística",
         "companiesDescriptionsTitle1": "Arquitectura y desarrollo de software",
         "companiesDescriptionsTitle2": "Calidad de bases de datos y código",
         "companiesDescriptionsTitle3": "Liderazgo técnico y arquitectura de soluciones",
         "companiesDescriptionsTitle4": "Estandarización y calidad operativa (DevOps)",
         "companiesDescriptionsTitle5": "Servicios y plataformas en la nube",
-
+        
+        "companiesDescriptions01": [
+          "Apoyé las operaciones diarias del almacén, incluyendo la recepción, la selección, el embalaje y el control de inventario.",
+          "Mantuve registros de inventario precisos mediante sistemas de gestión de almacén y tecnología de escaneo.",
+          "Mejoré la eficiencia operativa mediante la organización del flujo de trabajo y el cumplimiento de los procedimientos estandarizados.",
+          "Apoyé la incorporación del personal y la capacitación operativa."
+        ],
+          
         "companiesDescriptions11": [
           "Desarrollo de Core: Experiencia avanzada en el ecosistema .NET Core (3.1-5.0-8.0) (y versiones superiores), aplicando rigurosamente los principios SOLID para crear código limpio, escalable y fácil de mantener.",
           "Diseño e Integración: Liderar el diseño de las funcionalidades del sistema, garantizando su alineación con la arquitectura general. Colaborar en la definición arquitectónica de la solución.",
@@ -302,17 +311,22 @@ export const translation = {
         "title": "Mi Experiencia",
         "paragraph1": "Aquí se muestran mis trabajos más recientes en desarrollo web resposible.",
         "companiesName": [
-          "Digital Ware S.A.",
-          "Michael Page / Avianca",
-          "CapitalSaludEPS S.A.S",
+          "iLAD INC - Fontana, California",
+          "Digital Ware S.A. - Bogotá, Colombia",
+          "Michael Page / Avianca - Bogotá, Colombia",
+          "CapitalSalud EPS - Bogotá, Colombia",
+          "People Tech Latin S.A.S - Bogotá, Colombia",
+          "Colsanitas S.A. - Bogotá, Colombia"
         ],
         "companiesDurations": [
-          "junio 2020 - enero 2024",
-          "enero 2019 - enero 2020",
-          "junio 2016 - junio 2018",
-          "noviembre 2005 - junio 2016"
+          "Ene 2024 - Actual",
+          "Jun 2020 - Ene 2024",
+          "Ene 2019 - Ene 2020",
+          "Jun 2016 - Jun 2018",
+          "Nov 2005 - Jun 2016"
         ],
         "companiesRoles": [
+          "DRIVER",
           "ENGINEERING MANAGER",
           ".NET ENGINEER",
           "DEVELOPMENT ENGINEER",
@@ -320,6 +334,7 @@ export const translation = {
           "INFORMATION AND MANAGEMENT ANALYST" 
         ],
         "companiesTittle": [
+          "Asociado de Operaciones y Logística",
           "Arquitectura y desarrollo de software",
           "Calidad de la base de datos y del código",
           "Liderazgo técnico y arquitectura de soluciones",
@@ -332,11 +347,20 @@ export const translation = {
           "Desarrollo de API",
           "Integración Front-end"
         ],
+
+        "companiesDescriptionsTitle0": "Asociado de Operaciones y Logística",
         "companiesDescriptionsTitle1": "Arquitectura y desarrollo de software",
         "companiesDescriptionsTitle2": "Calidad de bases de datos y código",
         "companiesDescriptionsTitle3": "Liderazgo técnico y arquitectura de soluciones",
         "companiesDescriptionsTitle4": "Estandarización y calidad operativa (DevOps)",
         "companiesDescriptionsTitle5": "Servicios y plataformas en la nube",
+
+        "companiesDescriptions01": [
+          "Apoyé las operaciones diarias del almacén, incluyendo la recepción, la selección, el embalaje y el control de inventario.",
+          "Mantuve registros de inventario precisos mediante sistemas de gestión de almacén y tecnología de escaneo.",
+          "Mejoré la eficiencia operativa mediante la organización del flujo de trabajo y el cumplimiento de los procedimientos estandarizados.",
+          "Apoyé la incorporación del personal y la capacitación operativa."
+        ],
 
         "companiesDescriptions11": [
           "Desarrollo de Core: Experiencia avanzada en el ecosistema .NET Core (3.1-5.0-8.0) (y versiones superiores), aplicando rigurosamente los principios SOLID para crear código limpio, escalable y fácil de mantener.",
